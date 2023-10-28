@@ -1,0 +1,30 @@
+h1{
+    color:#ff00f2;
+}
+
+P{
+    color: BLUE;
+}
+button{
+    color:orangered;
+    background: greenyellow;
+
+}
+body{
+    background:gold;
+}
+img{
+    width: 400px;
+    display: none;
+}
+@media only screen and (max-width:600px) {
+    body {
+        background: lightgreen;
+    }
+    h2{
+        display: none;
+    }
+    img{
+        display:block;
+    }
+}
